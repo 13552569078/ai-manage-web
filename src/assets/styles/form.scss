@@ -1,0 +1,23 @@
+.address-input {
+    .input-affixe {
+      &.suffix {
+        min-height: 100%;
+        min-width: var(--form-md);
+        border-left: var(--input-border-width) solid var(--input-border-color);
+        margin-right:0;
+        background-color: #F9FAFE;
+      }
+    }
+  }
+  // 解决select宽度问题
+  .hl-input-select {
+    .select-trigger {
+      width: 100%;
+    }
+  }
+// 超出limit隐藏 上传按钮
+  .hide-upload-btn {
+    .handle-card{
+      display: none;
+    }
+  }

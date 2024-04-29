@@ -1,0 +1,11 @@
+.hl-dialog {
+  .hl-panel .panel-body {
+    --panel-body-padding: var(--xl);
+  }
+
+  &.md-dialog {
+    .hl-panel {
+      width: 460px;
+    }
+  }
+}

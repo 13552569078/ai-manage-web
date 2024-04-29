@@ -1,0 +1,19 @@
+.table-panel {
+  &:not(.keep-padding) .panel-body {
+    //padding-left: 0;
+    //padding-right: 0;
+  }
+  &.keep-padding {
+    .panel-body {
+      padding-top: var(--xl);
+    }
+  }
+}
+
+// 无搜索项 头部隐藏
+.fx-page-table-v2-nosearch {
+  .hl-panel.borderless > .panel-header {
+    border-bottom: none;
+    display: none;
+  }
+}
